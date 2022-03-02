@@ -1,5 +1,3 @@
-/*background, color, font-family, font-size,
-height, margin, padding, text-align */
 
 /* accent font */
 
@@ -40,6 +38,7 @@ header h2 {
   color: #3f4c66;
   text-align: center;
 }
+/* global style */
 
 body {
   background-color: #fff;
@@ -79,7 +78,6 @@ main article a:hover {
   color: #03B3FF;
   text-decoration: none;
 } 
-
 
 .text {
   font-family: Georgia, 'Times New Roman', Times, serif;
