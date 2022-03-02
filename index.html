@@ -5,23 +5,83 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Scherry Sweeney's portfolio</title>
+    <!-- This is a link to the browser override file, but I can't tell if it's working or not. I feel like it isn't and I had to write style to overcome browser rules. -->
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-	<link href="/portfolio/style.css" rel="stylesheet" type="text/css" />
+	<link href="./style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
-        <h1 >Scherry Sweeney take 912</h1>
+        <div>
+            <h1 >Scherry Sweeney</h1>
+            <h2>Senior UX Designer & Software Engineer</h2>
+        </div>
     </header>
     <main>
-        <article>Intro</article>
-        <article>About me</article>
-        <article>Contact</article>
+       <!-- This is the introduction section -->
+        <article>
+             <!-- This is the section image. The responsive class keeps the image responsive as well as centers it in my space -->
+            <div>
+                <img src="./buildingwireframes.png" alt="Picture of a cartoon guy in a painter's outfit on a ladder putting a wireframe box into a wireframe." class="responsive" />
+            </div>
+            <!-- This is the section title using an accent font -->
+            <div class="colored-text">
+                Hello, there. 
+            </div> 
+            <!-- This the section content. The text class is to define a more readable font and to do some alignment things while centering. This is why I didn't define a body font yet -->
+            <div class="text">
+                My name is Scherry and I am a UX/UI designer from Philadelphia enrolled in <a href="https://www.thinkful.com/" target="_blank">Thinkful's software engineering bootcamp</a> to better understand what it takes to build the things that I design. I feel like this will help make me a better designer and help me produce designs faster in an agile world. This portfolio will showcase the work I produce on this new engineering journey. Welcome, and thank you for viewing my work. Please feel free to <a href="mailto:scherry.sweeney@gmail.com">reach out with any feedback</a>.   
+            </div>
+        </article>
+        <hr class="rule">
+        <!-- This is the about me section and each article follows the syntax above -->
+        <article>
+            <p class="colored-text">         
+                About me
+            </p>
+            <div>
+                <img src="./travel.png" alt="Picture of a cartoon plane taking off from a map point." />
+            </div>
+            <div class="text">
+                I've been a UX/UI designer for the last 12 years, and before that, I held many various titles (like web designer, webmaster, content strategist, information architect) that equated to being the main person on marketing teams who could produce the words, the design and graphics, and even a little bit of frontend code for corporate websites. When I made the switch to being a UI engineer for a SaaS product and started asking, "But why are we building this feature? What is it the user is trying accomplish?" I solidified my path as a user experience designer. 
+                <p>Now, I want to learn and be able to participate in the coding of my designs, so I can help our frontend developers both from designing the right thing in the first place perspective, but also to help the team out from a resources perspective, as well.</p>
+                <p>Away from work, I like to stay as far away from the computer as possible and get outside for hikes, gardening or eating/drinking with friends. </p>
+                <p>
+                    A few of my favorite things are: 
+                    <ul>
+                        <li>Traveling (an meeeting new people!)</li>
+                        <li>Horseback riding</li>
+                        <li>Reading a good mystery on a rainy day</li>
+                        <li>Watching movies (the more explosions the better!)</li>
+                    </ul>
+                </p>
+            </div>
+        </article>
+        <hr class="rule">
+         <!-- This is the contact section -->
+        <article>
+            <p class="colored-text">
+                Getting in touch.
+            </p>
+            <div>
+                <img src="./usa.png" alt="Line drawing of the United States of America with a map pin in Austin, Texas, and Philadelphis, Pennsylvania." />
+            </div>
+            <div class="text">
+                I am from Austin, Texas but temporarily living in the northeast. Phildadelphia, to be exact. I'd love to hear from you! Please connect or follow me in the following ways:
+                <ol>
+                    <li><a href="https://www.linkedin.com/in/scherrysweeney/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/missourigal" target="_blank">Github</a></li>
+                    <li><a href="mailto:scherry.sweeney@gmail.com">Email</a></li>
+                </ol>
+            </div>
+        </article>
     </main>
     <footer>
-        Copyright
+        <div>
+            <h3>&#169; Copyright 2022 by Scherry Sweeney. All rights reserved</h3>
+        </div>
     </footer>
-    <script src="script.js"></script>
+    <!-- This is empty and not even in my github repository right now. But included it becaause this is where it will go eventually. -->
+    <script src="./script.js"></script>
 </body>
-
 </html>
